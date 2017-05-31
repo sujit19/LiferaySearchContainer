@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 6.2.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_6_2_0.dtd">
+<service-builder package-path="com.student.services" auto-namespace-tables="true">
+    <author>Aditya</author>
+    <namespace>search</namespace>
+    <entity name="Student" local-service="true" cache-enabled="false" table="student">
+        <column primary="true" name="studentId" type="int" id-type="increment"></column>
+        <column name="name" type="String"></column>
+        <column name="lastname" type="String"></column>
+        <column name="std" type="String"></column>
+        <column name="address" type="String"></column>
+        <column name="phone" type="String"></column>
+        <column name="gender" type="String"></column>
+    </entity>
+</service-builder>
